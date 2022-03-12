@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development next -p 3000"
+    "dev": "NODE_ENV=development next -p 3000",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
   }
 }
